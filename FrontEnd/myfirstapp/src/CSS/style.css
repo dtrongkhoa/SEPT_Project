@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    /* background-color: #b5a6a6; */
+    /* background-color: #34495e; */
+    /* background-color: #191919; */
+}
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    /* background-color: #191919; */
+    /* background-color: white; */
+    
+    border: solid 2px #191919;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+.box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.box input[type="email"], .box input[type="password"], .box input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="email"]:focus, .box input[type="password"]:focus, .box input[type="text"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.box a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline ;
+}
+.box a:hover {
+    color: #2ecc71;
+}
+.box p{
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+/* #nav-bar{
+    margin-bottom: 10px!important;
+    
+} */
+
+
+.form-container {
+    position: absolute;
+    /* top: 15vh; */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    text-align: center;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    background-color: #191919;
+}
+
+
+.container{
+    padding-top: 5px;
+}
+
+.card {
+    border: solid 2px #191919;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px #000;
+    margin-bottom: 20px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-body a{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#img-cart{
+    width: 150px;
+    height: 175px;
+}
+
+#pic-1{
+    width: 20rem;
+    height: 17rem;
+}
+
+#about {
+    margin-left: 1px;
+    
+}
+
+#admin-div-button {
+    margin-bottom: 10px;
+}
+
+.admin-button {
+    height: 200px;
+    color: white !important;
+}

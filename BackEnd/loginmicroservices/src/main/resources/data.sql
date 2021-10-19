@@ -1,0 +1,2 @@
+INSERT INTO USER (ID, CREATE_AT, FULL_NAME, PASSWORD, UPDATE_AT, USERNAME) VALUES (1, null, 'test test', '$2a$10$CGNEojmw4iEw38GSYyWNE.ia17SqCNCKfEHwGS5sGhZl5zPk0Cf5e', null, 'test@test.com');
+

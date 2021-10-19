@@ -1,0 +1,10 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const GET_PERSONS = "GET_PERSONS";
+export const GET_PERSON = "GET_PERSON";
+
+
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const DELETE_PRODUCT_IN_CART = 'DELETE_PRODUCT_IN_CART';
+export const UPDATE_PRODUCT_IN_CART = 'UPDATE_PRODUCT_IN_CART';
